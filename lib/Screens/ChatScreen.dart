@@ -114,12 +114,11 @@ class _MyChatState extends State<MyChatScreen> {
           toastLength: Toast.LENGTH_SHORT,
           gravity: ToastGravity.BOTTOM,
           timeInSecForIos: 1,
-          bgcolor: "#e74c3c",
-          textcolor: '#ffffff');
+          backgroundColor: Colors.blue);
     } else {
       _textController.clear();
       Message message = new Message(
-        msg:msg,
+        msg: msg,
         direction: messageDirection,
         dateTime: date,
       );
